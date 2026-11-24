@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ORBIT: Connecting our campus, one post at a time</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<aside id="side" aria-label="Main navigation"><div class="logo"><b>O</b><div><span class="wm">ORBIT</span><small class="tg">Connecting our campus, one post at a time.</small></div></div><nav class="nav" id="nav"></nav></aside>
+<div id="sc" data-act="menu"></div>
+<div class="main">
+<header class="top">
+<button class="ib menu" data-act="menu" aria-label="Open menu" title="Menu"><svg class="i" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+<a class="logo" href="#home" aria-label="ORBIT home"><b>O</b><span class="wm">ORBIT</span></a>
+<form class="sbox" id="sf" role="search"><svg class="i" viewBox="0 0 24 24"><path d="M11 4a7 7 0 100 14 7 7 0 000-14zM21 21l-5-5"/></svg><input id="gq" type="search" placeholder="Search posts by title, keyword or category" aria-label="Search posts"></form>
+
+<div class="row" id="tr" style="gap:2px;position:static"></div>
+</header>
+<div id="view"></div>
+<footer><p><b class="wm">ORBIT</b> &middot; <span class="tg" style="font-size:1.1rem">Connecting our campus, one post at a time.</span></p>
+<p><a href="#help-about">About Us</a><a href="#help-contact">Contact</a><a href="#help-help">Help</a><a href="#help-privacy">Privacy Policy</a></p><p>&copy; 2026 ORBIT.</p></footer>
+</div></div>
+<div id="toasts" aria-live="polite"></div>
+<dialog id="dlg"><p id="dm"></p><div class="row" style="justify-content:flex-end"><button class="btn ghost" id="dn">Cancel</button><button class="btn red" id="dy">Delete</button></div></dialog>
+<script src="script.js"></script>
+</body>
+</html>
